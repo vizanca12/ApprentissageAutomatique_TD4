@@ -1,0 +1,10 @@
+# Python
+__pycache__/
+*.pyc
+*.bak
+
+# Environment
+.venv/
+
+# Dataset (download from Kaggle: msambare/fer2013)
+data/

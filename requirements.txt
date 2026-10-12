@@ -1,0 +1,14 @@
+# Tested with Python 3.11
+# scikit-learn must match the version used to train knn_model.pkl and hog_linear_svm.joblib
+scikit-learn==1.9.1
+tensorflow==2.21.0
+scikit-image==0.26.0
+numpy==2.4.6
+opencv-python==5.0.0.93
+gradio==6.30.0
+joblib==1.6.0
+matplotlib==3.11.2
+
+# dlib is compiled at install time: needs cmake (and Visual Studio C++ Build Tools on Windows)
+cmake==4.4.4
+dlib==20.0.1
